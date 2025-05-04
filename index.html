@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WokFok</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>WokFok</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Food Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section light">
+    <h2>About Us</h2>
+    <p>WokFok brings you the bold flavors of Indian Chinese street food – fast, fresh, and full of spice! From crispy momos to sizzling chowmein and chilli potatoes, we serve your cravings with a twist. Based in New Delhi, we blend taste, hygiene, and quick service to deliver happiness in every bite.
+
+      Wok it. Fok it. Love it!.</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section">
+    <h2>Our Food Menu</h2>
+    <div class="gallery" id="menu-items">
+      <!-- Menu items will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="section light">
+    <h2>Your Cart</h2>
+    <div id="cart-details"></div>
+    <p>Total Bill: ₹<span id="total-bill">0</span></p>
+    <button id="checkout" class="btn-order">Checkout</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
